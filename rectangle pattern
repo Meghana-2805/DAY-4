@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main() {
+	int l,w,i,j;
+	cout << "enter the length:";
+	cin >> l;
+	cout << "enter the width:";
+	cin >> w;
+	cout << endl;
+	for (i=1;i<=w;i++){
+		for(j=1;j<=l;j++) {
+			cout << "*";
+		}
+		cout << endl;
+	}
+	return 0;
+}
